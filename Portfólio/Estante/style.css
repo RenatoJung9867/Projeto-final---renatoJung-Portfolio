@@ -1,0 +1,131 @@
+a  {
+    color: #d7e4f2;
+}
+/* Links */
+a:link {
+    color: #dcebf2;
+} 
+a:visited {
+    color: #9dbcd1;
+}   
+a:hover {
+    color: #1266d3;
+}
+a:active {
+    color: #c0d0e7;
+}
+.bookTitle {
+    background-color: #c1e3f7;
+    color:#020973;
+    text-align: center;
+}
+.bookTitle1 {
+    background-color: #a9bfd9;
+    color:#020973;
+    text-align: center;
+}
+body {
+    /* background-color:*/
+    background-color: #c1e3f7;
+    color: black;
+    /* texto */    
+    color: #0d0d0d;
+    text-align: justify;
+    /* alinhamento e tamnho */
+    /* 1 rem = 16 px */
+    width: 85%;
+    margin: auto;
+       
+    }
+    footer {
+    background-color: #03438c;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    color: #c1e3f7;
+}
+
+h1, h2, h3 {
+    text-align: center; 
+    color: #9faebbbd;
+    
+}
+h1{
+    text-decoration: underline;
+} 
+ 
+
+h3  {   
+    color: #151a0a;
+}
+/* Imagem */
+img {
+    width: 300px; 
+    display:block;
+    margin:auto;
+    border-radius: 15px;
+}
+
+/* suavização scroller*/
+
+html {
+    scroll-behavior: smooth;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+ 
+section {
+ /* ou 64px 256px*/ /*padding-left: 256px; padding-right: 256px; padding-bottom: 64px; padding-top: 64px;*/
+    padding: 64px 256px 64px 256px;
+ 
+
+    /* Tabela */   
+}
+table {
+    width: 100%;
+}
+td, th {    
+    background-color: #92b8e9;
+    border-width: 3px;
+    border: 1px solid black;
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+tr {
+    background-color: #32b3e6;
+}
+/*Título textos e parágrafos*/
+
+
+#sectionSA, #sectionAP {
+    background-color: #a9bfd9;    
+}
+
+#header {
+    background-color: #0d2f5c;
+    color:#dce6f2;
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+    background-color: #03438c;
+    color:#67696b;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*rodapé*/
